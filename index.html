@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Location Finder</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.css" rel="stylesheet">
+		<script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQsm0_KoUVN2zDTxt22Fmmd8CA8MU4TXA"></script>
+	</head>
+	<body>
+    <main id="info">
+      <p><strong>Your Country</strong>
+        <span id="flag"></span>
+        <span id="country">Canada</span>
+      </p>
+      <p><strong>Your City</strong>
+        <span id="city">Toronto</span>
+      </p>
+      <p><strong>Your IP</strong>
+        <span id="ip">123.23.23.2</span>
+      </p>
+    </main>
+    <div id="parent">
+      <div id="overlay"></div>
+      <div id="map"></div>
+      <div id="overlay2"></div>
+    </div>
+		<script src="locationJS.js"></script>
+	</body>
+</html>
